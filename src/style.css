@@ -1,0 +1,50 @@
+h1, p {
+  font-family: Lato;
+}
+
+.card {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.card-inner {
+  overflow: hidden;
+  padding: 10px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.description {
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.description h2 {
+  padding: 30px 25px;
+  font-size: 25px;
+}
+
+.description h6 {
+  padding: 15px 25px;
+  background: #eee;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h2 span {
+  float: right;
+  color: #2F80ED;
+  font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 20px;
+  }
+}
